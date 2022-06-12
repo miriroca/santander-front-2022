@@ -4,16 +4,35 @@ body {
 
 h1 {
     color: #025157;
-    text-align: cemter;
+    text-align: center;
 }
 
 p {
     color: #8b8b8bcc;
     font-family: Verdana;
     font-size: 20px;
+    text-align: center;
 }
 
 button {
     color: #fff;
     background-color: #025157;
+    
 }
+
+form{
+    text-align: center;
+}
+
+
+img#segunda  {
+ max-width: 1200px;
+ 
+}
+
+
+img#primera {
+    border: 4px dotted rebeccapurple;
+}
+
+img { display: block; margin: auto; }
