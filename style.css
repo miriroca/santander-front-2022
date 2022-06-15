@@ -24,8 +24,8 @@ button#start {
     color: #fff;
     background-color:#67b54b; 
     padding: 12px 14px;
-    border-style: none;
-    border radius: 5px;
+    border-style: 0;
+    border-radius: 5px;
     
 }
 
@@ -48,16 +48,17 @@ img#primera { display: block; margin: auto; }
 img#segunda { display: block; margin: auto; }
 
 .header{
-    margin-top: 40px;
+    /*margin-top: 40px;
     margin-left: 20px;
-    margin-right: 20px;
-    font-size 0;
+    margin-right: 20px; */
+    font-size: 0;
     margin: 40px 20px 0;
+    font-family: sans-serif;
 }
 
 li {
     display: inline;
-    margin: 0 25px;
+    margin: 0 25px 0;
 }
 
 .header > * {
@@ -69,7 +70,7 @@ li {
 }
 
 .logo {
-    width 15%;
+    width: 15%;
 }
 
 .logo > img{
@@ -77,18 +78,19 @@ li {
 }
 
 .navbar {
-    width 70%
+    width: 70%;
     text-align: left;
     font-family: sans-serif;
     height: 45px;
     color: #025157; 
     margin: 25px 25px 0;
+    font-weight: 500;
 }
 .actions {
-    width 15%;
+    width: 15%;
     text-align: left;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 600;
     margin: 10px 10px 0;
     color: #67b54b;
 }
