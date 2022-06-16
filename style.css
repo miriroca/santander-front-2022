@@ -11,7 +11,7 @@ h1 {
 
 p {
     color: #8b8b8bcc;
-    font-family: Verdana;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -75,6 +75,7 @@ li {
 
 .logo > img{
     width: 15%;
+    display: block;
 }
 
 .navbar {
@@ -83,16 +84,20 @@ li {
     font-family: sans-serif;
     height: 45px;
     color: #025157; 
-    margin: 25px 25px 0;
+    /*margin: 25px 25px 0;*/
     font-weight: 500;
 }
 .actions {
     width: 15%;
     text-align: left;
-    font-size: 14px;
     font-weight: 600;
-    margin: 10px 10px 0;
     color: #67b54b;
+}
+
+.actions > * {
+    font-size: 14px;
+    margin: 10px 10px 0;
+
 }
 
 .main {
