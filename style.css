@@ -104,3 +104,29 @@ li {
     margin-top: 140px;
     text-align: center;
 }
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.publish {
+    margin-left: 30px;
+}
+
+img#flecha{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0%;
+    background-color: #fffbf7;
+}
