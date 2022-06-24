@@ -82,8 +82,8 @@ li {
 }
 
 .navbar {
-    width: 70%;
-    text-align: left;
+    /* width: 70%; */
+    text-align: center;
     font-family: sans-serif;
     height: 45px;
     color: #025157; 
@@ -91,10 +91,11 @@ li {
     font-weight: 500;
 }
 .actions {
-    width: 15%;
-    text-align: left;
+    /* width: 15%; */
+    text-align: right;
     font-weight: 600;
     color: #67b54b;
+    font-size: 14px;
 }
 
 .actions > * {
