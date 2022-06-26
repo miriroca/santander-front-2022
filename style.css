@@ -1,4 +1,4 @@
-@media (max-width:575){
+@media (max-width:575px){
 body {
     background-color: #fffbf7;
 }
@@ -173,8 +173,12 @@ img#flecha{
     background-color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
 
 }
+
+
 
 .features {
     display: grid;
@@ -292,7 +296,7 @@ img#flecha{
 
   }
 
-  @media (max-width:575){ /*dispositivo celular vertical*/
+  @media (max-width:575px){ /*dispositivo celular vertical*/
     .navbar,
     .actions{
       display: none;
@@ -340,11 +344,21 @@ img#flecha{
       .features{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        
       }
 
       .feature-image{
         display:none;
+      }
+
+      .growing{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .grid4{
+        display: flex;
+        flex-direction: column;
       }
   }
 
