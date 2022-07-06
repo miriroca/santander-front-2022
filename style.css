@@ -20,6 +20,10 @@ p {
     text-align: center;
 }
 
+.texto-boton:hover{
+background-color: #67b54b;
+}
+
 button {
     color: #fff;
     background-color: #025157;  
